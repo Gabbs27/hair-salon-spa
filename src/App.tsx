@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main className="main-content">
         {/* Hero Section */}
-        <section className="hero">
+        <section className="hero" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./hero-bg.jpg')` }}>
           <div className="container">
             <h2>Welcome to Luxury and Relaxation</h2>
             <p>Experience the perfect blend of style and serenity</p>

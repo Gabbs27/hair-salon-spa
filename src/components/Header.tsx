@@ -49,7 +49,7 @@ export const Header = () => {
               {isMenuOpen && (
                 <div className="dropdown-content">
                   <a 
-                    href="/menus/hair-services.pdf" 
+                    href="./menus/hair-services.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={handleLinkClick}
@@ -57,7 +57,7 @@ export const Header = () => {
                     Hair Services
                   </a>
                   <a 
-                    href="/menus/spa-services.pdf" 
+                    href="./menus/spa-services.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={handleLinkClick}
@@ -65,7 +65,7 @@ export const Header = () => {
                     Spa Services
                   </a>
                   <a 
-                    href="/menus/nail-services.pdf" 
+                    href="./menus/nail-services.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={handleLinkClick}
@@ -73,7 +73,7 @@ export const Header = () => {
                     Nail Services
                   </a>
                   <a 
-                    href="/menus/beauty-packages.pdf" 
+                    href="./menus/beauty-packages.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={handleLinkClick}
