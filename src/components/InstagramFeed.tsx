@@ -8,7 +8,7 @@ export const InstagramFeed = () => {
         <div className="instagram-container">
           {/* Replace with your Instagram Business account ID */}
           <iframe
-            src="https://www.instagram.com/gabbsac27/embed"
+            src="https://www.instagram.com/codewithgabo/embed"
             className="instagram-frame"
             frameBorder="0"
             scrolling="no"
@@ -16,12 +16,12 @@ export const InstagramFeed = () => {
           ></iframe>
         </div>
         <a 
-          href="https://www.instagram.com/reflections_salon" 
+          href="https://www.instagram.com/codewithgabo" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn instagram-btn"
         >
-          Follow Us @reflections_salon
+          Follow Us @codewithgabo
         </a>
       </div>
     </section>
