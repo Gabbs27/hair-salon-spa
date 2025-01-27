@@ -23,7 +23,7 @@ A modern, responsive website for Reflections Salon & Spa built with React, TypeS
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/hair-salon-spa.git
+git clone https://github.com/gabbs27/hair-salon-spa.git
 ```
 
 2. Install dependencies:
