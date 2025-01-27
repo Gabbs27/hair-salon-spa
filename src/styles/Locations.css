@@ -1,0 +1,49 @@
+.happy-places {
+  background-color: var(--color-light);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.location-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.location-card h3 {
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.address {
+  color: var(--color-dark);
+  margin-bottom: 1.5rem;
+}
+
+.hours {
+  margin-bottom: 1.5rem;
+}
+
+.hours p {
+  margin-bottom: 0.5rem;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+} 

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-gold: #d9b56b;
+  --color-brown: #6b4f27;
+  --color-light: #f5f5f5;
+  --color-dark: #333333;
+  
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+/* Button Styles */
+.btn {
+  background-color: var(--color-gold);
+  color: var(--color-dark);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-brown);
+  color: var(--color-light);
+}

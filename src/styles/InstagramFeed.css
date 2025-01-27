@@ -1,0 +1,38 @@
+.instagram-section {
+  background-color: var(--color-light);
+  padding: 4rem 0;
+}
+
+.instagram-container {
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-frame {
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.instagram-btn {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+  border: none;
+  margin-top: 2rem;
+}
+
+.instagram-btn:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .instagram-frame {
+    height: 400px;
+  }
+} 
